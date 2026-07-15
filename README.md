@@ -8,8 +8,15 @@ This repository contains code snippets, notebooks, and exercises for various AI 
 Build typed LLM APIs with FastAPI, OpenAI structured output, guardrails, and cost visibility.
 
 - **Location:** `ai-engineering-bootcamp-v2/`
-- **Status:** Week 1 available
+- **Status:** Week 1, Week 1 v2, and Week 2 available
 - **Get Started:** See [ai-engineering-bootcamp-v2/README.md](ai-engineering-bootcamp-v2/README.md)
+
+### AI Builders Bootcamp
+Practical builder sessions for agent workflows, AI evals, and production tooling.
+
+- **Location:** `ai-builders-bootcamp/`
+- **Status:** AI Evals Session and Week 3 examples available
+- **Get Started:** See [ai-builders-bootcamp/README.md](ai-builders-bootcamp/README.md)
 
 ### Multi-Agent Systems
 Learn to build production-ready multi-agent systems using LangGraph.
@@ -29,11 +36,15 @@ Earlier bootcamp modules — RAG, ADK/LangGraph agents, eval monitoring, and mor
 AI-Internship/
 ├── README.md                         # This file
 ├── ai-engineering-bootcamp-v2/       # AI Engineering Bootcamp v2
-│   └── week-1/                       # FastAPI /ask demo (5 stages)
+│   ├── week-1/                       # Original FastAPI /ask demo
+│   ├── week-1v2/                     # Simplified class-ready /ask demo
+│   └── week-2/                       # RAG and vector databases
+├── ai-builders-bootcamp/             # AI Builders sessions
+│   ├── ai-evals-session/             # LLM tracing and eval tooling
+│   └── week-3/                       # n8n agent workflow examples
 ├── ai-engineering-bootcamp/          # AI Engineering Bootcamp v1 modules
 ├── multi-agent-systems/              # Multi-Agent Systems course
-│   ├── week-1/ … week-4/
-└── LangFuse/                         # Observability examples
+│   └── week-1/ ... week-4/
 ```
 
 ## 🚀 Quick Start
@@ -65,7 +76,7 @@ AI-Internship/
 
 2. **Navigate to your course:**
    ```bash
-   cd multi-agent-systems/week-1
+   cd ai-engineering-bootcamp-v2/week-1v2
    ```
 
 3. **Follow the course-specific instructions** in each week's README
